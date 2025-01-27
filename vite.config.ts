@@ -9,6 +9,9 @@ declare module "@remix-run/node" {
 }
 
 export default defineConfig({
+  server: {
+    port: 3000, // Specify port 3000
+  },
   plugins: [
     remix({
       future: {
@@ -21,4 +24,9 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
+  esbuild: {
+    jsx: 'automatic', // Allow JSX syntax in .js files
+    jsxFactory: 'React.createElement', // You can specify the JSX factory if needed (optional)
+    jsxFragment: 'React.Fragment', // Optional: this is to handle JSX fragments
+  },  
 });

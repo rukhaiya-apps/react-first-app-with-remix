@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+  }
+  
+  .div-container {
+    height: 215px;
+    text-align: center;
+    background-image: url('../../images/image.jpg');
+    position: relative; /* Add this to allow positioning of the button */
+  }
+  
+  .add-movie-button {
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Position the button on the top-right corner */
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: white;
+  }
+  
+  button {
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: white;
+  }

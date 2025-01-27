@@ -1,0 +1,19 @@
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #F65261;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #424242;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer b {
+    font-weight: 800;
+}
