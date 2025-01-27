@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to Remix!
 
 - 📖 [Remix docs](https://remix.run/docs)
@@ -39,3 +40,6 @@ Make sure to deploy the output of `npm run build`
 
 This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
 # react-first-app-with-remix
+=======
+# react-first-app-with-remix
+>>>>>>> ce73936b02c61e3ce9cc0f4433744b8a76760303
